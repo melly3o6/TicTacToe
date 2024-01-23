@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #ffffff;
+	color: #0077ff;
+	font-family: 'Rajdhani', sans-serif;}
+
+.field {
+	height: 33%;
+	width: 30%;
+	text-align: center;
+	font-size: 5em;
+	font-weight: bolder;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+	cursor: pointer;
+}
+
+.field.x {
+	color:#0077ff;
+}
+
+.field.o {
+	color:#ff1100;
+}
+
+#container {
+	height: 60vh;	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.borderBottom {
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1.5px;
+}
+
+.borderRight {
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-right-width: 1.5px;
+}
+
+#messageBox {
+
+	font-size: 6em;
+	position: absolute;
+	color: #000000; 
+	font-weight: bolder;
+	top: 75vh;
+	margin: auto; 
+	width: 100%; 
+	text-align: center;
+}
+
+#restartMessage {
+
+	font-size: 2em;
+	position: absolute;
+	color: #000000; 
+	font-weight: bolder;
+	top: 90vh;
+	margin: auto; 
+	width: 100%; 
+	text-align: center;
+}
+
+#titleLink {
+	text-decoration: none;
+	height: 10vh;
+    text-align: center;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+	color: #0077ff;
+}
